@@ -20,7 +20,7 @@ import numpy as np
 from semanticscholar import SemanticScholar
 import matplotlib.pyplot as plt
 
-sch = SemanticScholar(timeout=200)
+sch = SemanticScholar(timeout=100)
 
 def initG(DOI: str) -> dict:
     """take the DOI from the seed article and produce a labelbase for each
